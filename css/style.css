@@ -1,0 +1,33 @@
+.quesCard{
+    height: 60vh;
+    overflow: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .quesCard{
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    .quesBtns{
+        font-size: 1ch;
+    }
+}
+    
+    
+@media screen and (min-width: 767px) {
+    .quesBtns{
+        font-size: 2ch;
+    }
+}
+
+
+.imgMsgTrue{}
+
+.answerQues{
+    cursor: pointer;
+}
+.answerQues:hover{
+    background-color: #f5f5f5;
+}
