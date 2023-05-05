@@ -158,7 +158,6 @@ var questions = [
     msg: "",
   },
 ];
-
 function checkDetails() {
   var eUserName = document.querySelector(".userName").value;
   var eUserAge = document.querySelector(".userAge").value;
